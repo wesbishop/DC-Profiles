@@ -1,0 +1,78 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 0px solid;
+  opacity: 1.8;
+}
+
+#home-section {
+  background: url("../img/atv_6.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 1.0;
+}
+
+#home-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#developer-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#container-graduates .card {
+  width: 200px;
+  margin-top: 15px;
+}
+
+#container-graduates .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#main-footer a {
+  color: white;
+}
+
+#main-footer a:link {
+  text-decoration: underline;
+}
+
+#main-footer a:visited {
+  text-decoration: none;
+}
+
+#main-footer a:hover {
+  font-weight: bold;
+}
